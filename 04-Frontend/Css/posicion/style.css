@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  /* valor por defecto*/
+  position: static;
+}
+
+.box1 {
+  border: 1px solid olive;
+  background-color: aqua;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  z-index: 2;
+}
+
+.box2 {
+  border: 1px solid orange;
+  background-color: rebeccapurple;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.box3 {
+  border: 1px solid palevioletred;
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 0;
+}
+
+.box4 {
+  border: 1px solid palegreen;
+  background-color: chartreuse;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+.box3:hover {
+  background-color: brown;
+  transition: all 5s linear;
+}

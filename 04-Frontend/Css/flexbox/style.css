@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.padre {
+    display: flex;
+    height: 200px;
+    background-color: rgb(226, 95, 121);
+    flex-direction: row;
+  
+   
+}
+
+.hijo {
+    border: 5px solid rgb(92, 36, 10);
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+}

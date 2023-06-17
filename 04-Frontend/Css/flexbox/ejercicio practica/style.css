@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-card {
+    background-color: aqua;
+    
+}
+
+.container-left {
+    background-color: chocolate;
+}
+
+.container-rigth {
+    background-color: chartreuse;
+}
