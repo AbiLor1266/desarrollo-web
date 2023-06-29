@@ -17,7 +17,12 @@ main {
 
 .container-card {
     background-color: aqua;
-    
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 4px 8px 30px 30px rgb(198, 200, 204);
 }
 
 .container-left {

@@ -1,0 +1,47 @@
+:root {
+  --color-principal: rgb(106, 171, 245);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: var(--color-principal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+
+main {
+  padding: 100px 20px 20px 20px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  img {
+    display: none;
+  }
+}

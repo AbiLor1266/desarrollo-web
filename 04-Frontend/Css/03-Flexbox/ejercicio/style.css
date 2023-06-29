@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor-carta {
+  background-color: rgb(212, 223, 224);
+  width: 900px;
+  height: 600px;
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 8px 4px 20px 20px rgba(204, 213, 228, 0.911);
+}
+
+.contenedor-izquierda {
+  background: linear-gradient(
+    180deg,
+    rgba(94, 20, 255, 1) 0%,
+    rgba(0, 26, 255, 1) 100%
+  );
+  width: 450px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.contenedor-izquierda h2 {
+  color: rgb(220, 232, 243);
+  font-weight: 500;
+}
+
+.circulo {
+  background: linear-gradient(
+    180deg,
+    rgba(10, 14, 249, 0.452) 0%,
+    rgba(89, 28, 255, 0.212) 100%
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-numero {
+  font-size: 50px;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.circulo-100 {
+  color: aliceblue;
+}
+
+.titulo-resultado {
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.resultado {
+  color: aliceblue;
+  display: flex;
+  text-align: center;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.contenedor-derecha {
+  background-color: rgb(218, 231, 233);
+  width: 450px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.habilidad {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(247, 206, 206, 0.459);
+  border-radius: 10px;
+  color: #f55;
+  font-weight: 500;
+}
+
+.habilidad-izquierda {
+  display: flex;
+  gap: 8px;
+}
+
+.habilidad-derecha span:nth-child(1) {
+  color: black;
+}
+
+.habilidad-derecha span:nth-child(2) {
+  color: rgb(26, 26, 58);
+}
+
+.amarillo {
+  color: #ffb21e;
+  background-color: rgba(253, 245, 130, 0.486);
+}
+
+.verde {
+  color: #00bb8f;
+  background-color: rgba(192, 255, 176, 0.438);
+}
+
+.azul {
+  color: #1125d6;
+  background-color: rgba(177, 182, 255, 0.418);
+}
+
+.button {
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.button:hover {
+  background-color: rgb(199, 211, 211);
+  color: black;
+  margin: 20px;
+  transition: all 0.7s;
+}

@@ -1,0 +1,31 @@
+body {
+   background-color: rgb(42, 106, 245);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+/* min-width - desde que el ancho sea... */
+/* max-wwidth - hasta que el ancho sea... */
+
+@media screen and ( max-width: 600px) {
+    body {
+        background-color: chartreuse;
+    }
+
+    h1 {
+        color: brown;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    h1 {
+        color: aqua;
+    }
+
+}
