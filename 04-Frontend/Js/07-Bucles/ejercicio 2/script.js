@@ -29,10 +29,21 @@ function contarParesImpares(numeros) {
 console.log(contarParesImpares(numeros)); //"hay 2 numeros pares y 3 numeros impares en el array"
 */
 
-//index          0  1  2  3  4
-const numeros2 = [2, 1, 4, 5, 7];
-let par = 0;
-let impar = 0;
+//i               0  1  2  3  4
+// const numeros2 = [2, 1, 4, 5, 7];
+// let par = 0;
+// let impar = 0;
+
+// for (let i = 0; i < numeros2.length; i++) {
+//   if (numeros2[i] % 2 === 0) {
+//     par++;
+//   } else {
+//     impar++;
+//   }
+// }
+// console.log(
+//   "hay " + par + " numeros pares y hay " + impar + " numeros impares"
+// );
 
 function contarParesImpares(numeros2) {
   let par = 0;
@@ -48,14 +59,3 @@ function contarParesImpares(numeros2) {
     "hay " + par + " numeros pares y hay " + impar + " numeros impares"
   );
 }
-
-for (let i = 0; i <= numeros2.length; i++) {
-  if (numeros2[i] % 2 === 0) {
-    par++;
-  } else {
-    impar++;
-  }
-}
-console.log(
-  "hay " + par + " numeros pares y hay " + impar + " numeros impares"
-);
