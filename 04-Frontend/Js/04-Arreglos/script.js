@@ -16,10 +16,10 @@
 //eliminar el ultimo elemento de un array
 //var lista = ["abigail", "mackenzie", "alan"];
 //lista.pop ();
-//lista.pop borra el ultimo elemento 
+//lista.pop borra el ultimo elemento
 
 //eliminar el ultimo elemento de un Array
-//lista.shift(); 
+//lista.shift();
 
 //agregar un elemento al final de un array
 //lista.push("violett");
@@ -27,3 +27,4 @@
 //agregar un elemento al inicio de un arrays
 //lista.unshift();
 
+// los arreglos (arrays), SIEMPRE van dentro de "[]"

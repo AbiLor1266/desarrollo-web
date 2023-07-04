@@ -39,3 +39,6 @@ if (semaforo === "rojo") {
 //case: es otra condicional, como una condicional dentro de otra
 // default:  (else)
 // NOTA:un switch debe tener siempre un caso por defecto
+//los metodos siempre van entre parentesis
+//typeof: saber que tipo de dato es, si es numero o string 
+//un else no lleva parentesis, un else if si
