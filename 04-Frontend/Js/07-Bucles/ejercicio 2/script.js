@@ -29,7 +29,7 @@ function contarParesImpares(numeros) {
 console.log(contarParesImpares(numeros)); //"hay 2 numeros pares y 3 numeros impares en el array"
 */
 
-//i               0  1  2  3  4
+//i                  0  1  2  3  4
 // const numeros2 = [2, 1, 4, 5, 7];
 // let par = 0;
 // let impar = 0;
