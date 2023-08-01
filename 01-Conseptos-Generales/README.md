@@ -8,5 +8,5 @@ HTTP: es como se envia la informacion, transfier informacion por medio de una ww
 HTML: lenguaje
 URL: donde se escribe la informacion
 
-
+typeof: saber que tipo de dato es
 

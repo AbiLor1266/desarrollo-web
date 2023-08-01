@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(19, 30, 78, 0.658);
+}
+
+
+input {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+button {
+  border: 50px;
+  
+}

@@ -1,3 +1,6 @@
+// los objectos se abren con "{}"
+// "this" es para expecificar a que onjeto nos dirigimos
+
 //objetos literales
 var persona = {
   nombre: "Abigail",
@@ -34,10 +37,7 @@ var persona2 = {
   hablar: function () {
     return "hola abigail, ya llegue, mis hermanos vienen despues";
   },
-
-  
 };
 
 console.log(persona2);
 console.log(persona2);
-

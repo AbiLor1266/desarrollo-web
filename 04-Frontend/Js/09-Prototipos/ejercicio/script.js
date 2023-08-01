@@ -44,9 +44,7 @@ class Automovil extends Vehiculo {
   }
 
   obtenerDetalles() {
-    return (
-      super.obtenerDetalles() + ", y la cantidad de puertas es: " + this.puertas
-    );
+    return super.obtenerDetalles() + ", y la cantidad de puertas es: " + 4;
   }
 }
 
@@ -57,11 +55,11 @@ class Motocicleta extends Vehiculo {
   }
 
   obtenerDetalles() {
-    return super.obtenerDetalles() + ", y el cilindraje es: " + this.cilindrada;
+    return super.obtenerDetalles() + ", y el cilindraje es: " + 12;
   }
 }
 
-const automovil = new Automovil("Renault", "2006", "Gris", "y su cilindraje 4");
+const automovil = new Automovil("Renault", "2006", "Gris", 4);
 const motocicleta = new Motocicleta("Honda", "2009", "Negra", 12);
 
 console.log(automovil.obtenerDetalles());
